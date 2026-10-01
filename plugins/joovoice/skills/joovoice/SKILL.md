@@ -33,22 +33,32 @@ with their replies.
   sign in themselves (in Codex, run `codex mcp login joovoice` in a terminal or
   use the JooVoice plugin's sign-in), keep what they asked for, and carry on the
   moment JooVoice answers. Elsewhere, point them to this app's sign-in for
-  JooVoice. Never ask for passwords or codes in the chat.
+  JooVoice. Never ask for their JooVoice password or sign-in codes in the chat.
 - Every reply has `meaning` (for you), `sayToOwner` (tell the owner, in your own
   words) and `next` (the calls to make). Follow `next`; don't guess or skip ahead.
 - Calls go to businesses, or to a person who first says yes through a Start link
   JooVoice prepares (a personal call). Never offer to call the owner's own number.
 - When gathering a call, ask in the same message what to do if their first choice
   isn't available (another time, another day, the nearest slot), unless you
-  already know what they'd want. Offer the choices; don't pick for them.
-- When JooVoice has questions, show them to the owner with `ask_owner` if you
-  have it (a form in this app). Put what the owner already told you in its
-  `prefill`, so the form opens with those answers and they only confirm them and
-  fill the gaps. Otherwise ask here and pass their answers to
-  `answer_questions`. Fill in what the owner told you. If they asked you to
-  handle it ("just book it", "you decide"), choose preferences yourself, answer
-  with `answer_questions`, and tell them what you chose. Never invent facts only
-  they know: names, numbers, references.
+  already know what they'd want. Offer the choices; don't pick for them. For a
+  call to a person, also ask what to tell them first and whether they may have
+  the owner's number.
+- When JooVoice has questions, judge each one: answer what you're confident of
+  from the conversation with `answer_questions`, and ask the owner only what is
+  unclear, theirs to decide, or speaks for them (a message in their name,
+  sharing their number) unless they already said. When there is something to
+  ask, use `ask_owner` if you have it: a short form opens here in this chat
+  (say so; it's not a website), with what you know in `prefill`. If it closes,
+  ask in chat. If they asked you to handle it ("just book it", "you decide"),
+  choose preferences yourself and tell them what you chose. Never invent facts
+  only they know: names, numbers, references.
+- Every question can be answered here, card details and codes included: ask
+  only for what's needed, send it, and never repeat it back.
+- For a personal call you may write the short note on their Start link
+  (`invitationNote`); ask about it only if it seems to matter. The final review
+  shows it.
+- If a call needs Premium or more credits, say so plainly and make the payment
+  link `next` offers (`get_payment_link`); don't call it a price to review.
 - When a call reaches final review, goes live or finishes, show it with
   `show_call` (a card in this chat that follows the call, with Approve and Stop
   buttons) rather than retyping it, then answer what the owner asks.

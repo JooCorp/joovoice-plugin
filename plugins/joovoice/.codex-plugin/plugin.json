@@ -1,6 +1,6 @@
 {
   "name": "joovoice",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "JooVoice makes phone calls for you, to businesses and to people, and brings the result back to your chat.",
   "author": {
     "name": "JooVoice",
@@ -29,13 +29,14 @@
     "logo": "./assets/logo.png",
     "logoDark": "./assets/logo.png",
     "defaultPrompt": [
-      "@JooVoice book a table for two at Mia this Friday at 7:30pm under my name. If it's full, anything from 7 to 8:30 works",
-      "@JooVoice ask Harbour Hotel for a 2pm checkout this Sunday, booking HB-48213. Our flight isn't until 8pm",
-      "@JooVoice call my friend Sam to wish him a happy birthday from me. Play it like a groovy 1960s British secret agent"
+      "Book a table for two at Mia this Friday at 7:30pm under my name. If it's full, anything from 7 to 8:30 works",
+      "Ask Harbour Hotel for a 2pm checkout this Sunday, booking HB-48213. Our flight isn't until 8pm",
+      "Call my friend Sam to wish him a happy birthday from me. Play it like a groovy 1960s British secret agent"
     ],
     "websiteURL": "https://joovoice.com",
     "privacyPolicyURL": "https://app.joovoice.com/privacy-policy",
     "termsOfServiceURL": "https://app.joovoice.com/terms-of-service",
+    "supportURL": "https://app.joovoice.com/support",
     "brandColor": "#c4736a"
   }
 }

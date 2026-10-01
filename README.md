@@ -64,6 +64,6 @@ Using another agent? Connect it to JooVoice's MCP server directly: `https://app.
 
 ## More
 
-[joovoice.com](https://joovoice.com) · [Privacy](https://app.joovoice.com/privacy-policy) · [Terms](https://app.joovoice.com/terms-of-service)
+[joovoice.com](https://joovoice.com) · [Support](https://app.joovoice.com/support) · [Privacy](https://app.joovoice.com/privacy-policy) · [Terms](https://app.joovoice.com/terms-of-service)
 
 <sub>This repository is published from JooVoice's own repository; changes are made there.</sub>

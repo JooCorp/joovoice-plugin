@@ -1,0 +1,20 @@
+{
+  "name": "joovoice",
+  "interface": {
+    "displayName": "JooVoice"
+  },
+  "plugins": [
+    {
+      "name": "joovoice",
+      "source": {
+        "source": "local",
+        "path": "./plugins/joovoice"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

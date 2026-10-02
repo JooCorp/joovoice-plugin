@@ -1,6 +1,6 @@
 {
   "name": "joovoice",
-  "version": "0.2.6",
+  "version": "0.2.9",
   "description": "JooVoice makes phone calls for you, to businesses and to people, and brings the result back to your chat.",
   "author": {
     "name": "JooVoice",
@@ -16,7 +16,7 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "JooVoice",
-    "shortDescription": "Make phone calls for you",
+    "shortDescription": "Makes phone calls for you",
     "longDescription": "JooVoice makes phone calls for you: restaurant reservations, doctor's and dentist appointments, cancelling a subscription or a gym membership, refunds, a late checkout, changing a booking or a flight, checking stock or opening hours, a birthday call, checking in on family, and more.\n\nJust tell us what you need, and we make the call. You get the result back in your chat, with the recording and the transcript.\n\nWe call businesses and people. A personal call, like a birthday wish, goes through a link the person opens first, so they're happy to take it.\n\nGive us the details: whose name it's under, a booking reference, what else works if your first choice is taken. The more you tell us, the better the call goes.",
     "developerName": "JooVoice",
     "category": "Productivity",

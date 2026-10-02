@@ -1,10 +1,7 @@
 {
   "mcpServers": {
     "joovoice": {
-      "type": "streamable-http",
-      "url": "https://app.joovoice.com/mcp",
-      "default_tools_approval_mode": "approve",
-      "tool_timeout_sec": 960
+      "url": "https://app.joovoice.com/mcp"
     }
   }
 }

@@ -43,6 +43,9 @@ with their replies.
   already know what they'd want. Offer the choices; don't pick for them. For a
   call to a person, also ask what to tell them first and whether they may have
   the owner's number.
+- JooVoice decides the call's language, accent and voice, so you don't have to.
+  Give the request and its requirements in detail; a fact about the other side
+  (they only speak Italian) is a requirement, so include it.
 - When JooVoice has questions, judge each one: answer what you're confident of
   from the conversation with `answer_questions`, and ask the owner only what is
   unclear, theirs to decide, or speaks for them (a message in their name,
@@ -58,9 +61,9 @@ with their replies.
 - For a personal call you may write the short note on their Start link
   (`invitationNote`); ask about it only if it seems to matter. The final review
   shows it.
-- If a call needs Premium or more credits, say so plainly and give the owner the
-  JooVoice link from the reply, where they get it; don't call it a price to
-  review. Plans and credits are bought on JooVoice's page, not in the chat.
+- If a call needs more credits, say so plainly and give the owner the JooVoice
+  link from the reply, where they buy credits; don't call it a price to review.
+  Credits are bought on JooVoice's page, not in the chat.
 - When the owner asks to see their calls, show them with `open_calls` (the
   Calls card in this chat) rather than listing them in text.
 - When a call reaches final review, goes live or finishes, show it with

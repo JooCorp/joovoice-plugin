@@ -40,7 +40,8 @@ with their replies.
   JooVoice prepares (a personal call). Never offer to call the owner's own number.
 - When gathering a call, ask in the same message what to do if their first choice
   isn't available (another time, another day, the nearest slot), unless you
-  already know what they'd want. Offer the choices; don't pick for them. For a
+  already know what they'd want. Offer the choices; don't pick for them. Never
+  assume flexibility they didn't give (another time, date or price): ask. For a
   call to a person, also ask what to tell them first and whether they may have
   the owner's number.
 - JooVoice decides the call's language, accent and voice, so you don't have to.
@@ -64,6 +65,9 @@ with their replies.
 - If a call needs more credits, say so plainly and give the owner the JooVoice
   link from the reply, where they buy credits; don't call it a price to review.
   Credits are bought on JooVoice's page, not in the chat.
+- JooVoice's cards come only where this app shows them (the Codex app does; a
+  terminal doesn't): use `open_calls` and `show_call` only if they're listed here.
+  Otherwise relay the replies in text, and never mention a card.
 - When the owner asks to see their calls, show them with `open_calls` (the
   Calls card in this chat) rather than listing them in text.
 - When a call reaches final review, goes live or finishes, show it with
